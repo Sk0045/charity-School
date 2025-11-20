@@ -7,7 +7,7 @@ const Idcontact = () => {
       {/* Image */}
       <div className="flex justify-center">
         <img 
-          src="https://lirp.cdn-website.com/fb49e962/import/clib/gracecharityschool_org/dms3rep/multi/opt/founder-bio-300x300-1920w.png"  
+          src="/images/manager.jpeg"  
           alt="Founder" 
           className="w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
         />
