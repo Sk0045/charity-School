@@ -7,7 +7,7 @@ const Idcontact = () => {
       {/* Image */}
       <div className="flex justify-center">
         <img 
-          src="/images/manager.jpeg"  
+          src="/images/manager1.jpeg"  
           alt="Founder" 
           className="w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
         />
