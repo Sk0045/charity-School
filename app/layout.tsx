@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Grace charity School",
+  title: "Son of David's School",
   description: "Grace charity School",
 };
 
