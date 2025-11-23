@@ -55,7 +55,7 @@ const Footer = () => {
             zIndex: 0,
           }}
         />
-          <div className="relative bg-green-700/70 h-full max-w-10xl text-white mx-auto py-10 sm:py-16 px-4 sm:px-6  text- space-y-4 sm:space-y-6">
+          <div className="relative bg-blue-700/60 h-full max-w-10xl text-white mx-auto py-10 sm:py-16 px-4 sm:px-6  text- space-y-4 sm:space-y-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
             Grace Charity School helps educate and guide children in Toba Tek Singh, Pakistan
           </h1>

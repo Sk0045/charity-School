@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Imageslider />
       <Main />
-       <Idcontact />
+      <Idcontact />
     </div>
   );
 }

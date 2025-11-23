@@ -21,10 +21,10 @@ const Idcontact = () => {
 
         <h2 className="text-xl md:text-2xl font-semibold">Pastor Victor Samuel</h2>
 
-        <p className="mb-4">Grace Charity High School Pakistan</p>
+        <p className="mb-4">Son of David's School Pakistan</p>
 
-        <button className="bg-green-700 text-white hover:bg-green-600 w-52 h-12 rounded-3xl shadow">
-          <a className="font-medium underline" href="#">
+        <button className="bg-blue-600 text-white hover:bg-blue-700 w-52 h-12 rounded-3xl shadow">
+          <a className="font-medium underline" href="/contact">
             Learn how you can help
           </a>
         </button>

@@ -26,10 +26,10 @@ export default function Slider() {
             className="w-full h-full object-cover"
           />
 
-          <div className="absolute inset-0 bg-green-700/70 flex items-center justify-center text-white">
+          <div className="absolute inset-0 bg-blue-700/60 flex items-center justify-center text-white">
             <div className="text-center px-4 md:px-10 animate-fadeSlide max-w-[95%] md:max-w-[900px]">
               <h1 className="text-2xl md:text-4xl font-bold mb-5">
-                Welcome to the Great SON OF DAVID's Charity School.
+                Welcome to the Great SON OF DAVID's School.
               </h1>
 
               <p className="text-sm md:text-xl font-medium text-left">
@@ -58,7 +58,7 @@ export default function Slider() {
             className="w-full h-full object-cover"
           />
 
-          <div className="absolute inset-0 bg-green-700/70 flex items-center justify-center text-white">
+          <div className="absolute inset-0 bg-blue-700/60 flex items-center justify-center text-white">
             <div className="text-center px-4 md:px-10 animate-fadeSlide max-w-[95%] md:max-w-[900px]">
               <h1 className="text-2xl md:text-4xl font-bold mb-5">
                 Your Dream Place
@@ -88,7 +88,7 @@ export default function Slider() {
             className="w-full h-full object-cover"
           />
 
-          <div className="absolute inset-0 bg-green-700/70 flex items-center justify-center text-white">
+          <div className="absolute inset-0 bg-blue-700/60 flex items-center justify-center text-white">
             <div className="text-center px-4 md:px-10 animate-fadeSlide max-w-[95%] md:max-w-[900px]">
               <h1 className="text-2xl md:text-4xl font-bold mb-5">
                 Inspiration & Hope

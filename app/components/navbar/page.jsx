@@ -5,8 +5,8 @@ import Link from "next/link";
 const links = [
   { name: "Home", path: "/" },
   { name: "About us", path: "/about" },
-  { name: "Our Programs", path: "/ourProgrames" },
-  { name: "Support and School", path: "/supportandSystem" },
+  { name: "Our Programs", path: "/ourprogrames" },
+  { name: "Support our School", path: "/supportourschool" },
   { name: "News", path: "/news" },
   { name: "Contact", path: "/contact" },
 ];
@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="hidden md:flex gap-10">
           {links.map((item, i) => (
             <Link key={i} href={item.path}>
-              <p className="text-gray-800 text-lg hover:text-green-600 hover:font-medium cursor-pointer">
+              <p className="text-gray-800 text-lg hover:text-blue-600 hover:font-medium cursor-pointer">
                 {item.name}
               </p>
             </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Button */}
-        <button className="hidden md:block bg-green-600 text-white w-32 h-12 rounded-2xl hover:bg-green-700">
+        <button className="hidden md:block bg-blue-500 text-white w-32 h-12 rounded-2xl hover:bg-blue-700">
           Give
         </button>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
 
       {/* Mobile Menu (PUSHES CONTENT DOWN) */}
       <div
-        className={`md:hidden bg-green-700 text-white overflow-hidden transition-all duration-300 ${
+        className={`md:hidden bg-blue-500 text-white overflow-hidden transition-all duration-300 ${
           open ? "max-h-[500px] py-6" : "max-h-0 py-0"
         }`}
       >
@@ -68,9 +68,13 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <button className="bg-white text-green-700 px-6 py-2 rounded-xl font-semibold">
-            Give
+          <button className="bg-white text-black px-6 py-2 rounded-xl font-semibold">
+            Phone
           </button>
+          <button className="bg-white text-black px-6 py-2 rounded-xl font-semibold">
+            Email
+          </button>
+
         </div>
       </div>
     </>

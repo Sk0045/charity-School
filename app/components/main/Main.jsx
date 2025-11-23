@@ -63,7 +63,7 @@ const Main = () => {
           ))}
         </div>
       </div>
-          <Link href="/news"><button className="bg-green-700 w-[240px] h-10 text-center mb-2 -mt-2 text-white font-medium text-2xl rounded-2xl underline hover:bg-green-600 cursor-pointer">view more article</button></Link>
+          <Link href="/news"><button className="bg-blue-600 w-[240px] h-10 text-center mb-2 -mt-2 text-white font-medium text-2xl rounded-2xl underline hover:bg-blue-700 cursor-pointer">view more article</button></Link>
     </div>
   );
 };
