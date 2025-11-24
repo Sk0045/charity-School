@@ -40,9 +40,11 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Button */}
+       <Link href="/contact">
         <button className="hidden md:block bg-blue-500 text-white w-32 h-12 rounded-2xl hover:bg-blue-700">
           Give
         </button>
+       </Link>
 
         {/* Mobile Menu Button */}
         <button
