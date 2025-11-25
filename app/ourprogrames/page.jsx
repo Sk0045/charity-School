@@ -9,7 +9,6 @@ const Page = () => {
       {/* HERO SECTION */}
       {/* ============================ */}
       <div className="relative w-full h-72 sm:h-[330px] md:h-[420px] lg:h-[520px] mb-20">
-
         <div
           className="absolute inset-0"
           style={{
@@ -20,9 +19,17 @@ const Page = () => {
         />
 
         <div className="absolute inset-0 bg-blue-700/60 flex items-center justify-center px-4">
-          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center drop-shadow-lg">
-            Our Programmes
-          </h1>
+          <div className="max-w-3xl mx-auto text-center space-y-4">
+            <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold drop-shadow-lg">
+              Our Programmes
+            </h1>
+
+            <p className="text-white text-sm sm:text-base md:text-lg leading-relaxed drop-shadow">
+              At Sons of David School®, every initiative is rooted in love, compassion, and faith.
+              Through education, healthcare, and spiritual guidance, we aim to nurture each child with
+              dignity, knowledge, and purpose.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -31,8 +38,6 @@ const Page = () => {
       {/* ============================ */}
       <div className="px-6 lg:px-24 mb-20">
         <div className="flex flex-col md:flex-row items-center gap-12">
-
-          {/* IMAGE */}
           <div className="w-full md:w-1/2">
             <img
               src="/images/slider1.jpeg"
@@ -41,22 +46,16 @@ const Page = () => {
             />
           </div>
 
-          {/* TEXT */}
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
-              Son of David&apos;s School
+              Free Education for Underprivileged Children
             </h2>
 
             <p className="text-gray-800 text-lg leading-relaxed mb-4">
-              Founded in September of 2010, Grace Charity School, run by God Grace Ministries of Pakistan (GGMOP) and led by teacher/pastor Mr. Victor Sammuel, has spent the last 10 years successfully educating poor and needy children.
-              Now, by God’s grace, we are expanding into the slums of Toba Tek Singh, providing education where no other school exists.
-            </p>
-
-            <p className="text-gray-800 text-lg leading-relaxed">
-              We offer completely free education, but because of increasing student numbers, GGMOP faces financial strain. Yet despite challenges, results remain excellent — proving the value and impact of this mission.
+              We provide free English-medium education with books, uniforms, and meals—
+              ensuring poverty never blocks education and hope.
             </p>
           </div>
-
         </div>
       </div>
 
@@ -65,34 +64,113 @@ const Page = () => {
       {/* ============================ */}
       <div className="px-6 lg:px-24 mb-20">
         <div className="flex flex-col md:flex-row items-center gap-12">
-
-          {/* TEXT */}
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
-              Why Son of David&apos;s School?
+              Special Education
             </h2>
 
             <p className="text-gray-800 text-lg leading-relaxed mb-4">
-              Our Early Childhood classrooms offer developmentally appropriate learning, meaningful play, and loving guidance. Students learn in a safe, joyful, and spiritually uplifting environment.
+              We design individualized learning plans for children with special needs,
+              supporting their communication, confidence, and God-given potential.
             </p>
 
-            <h3 className="text-2xl font-bold mb-4">Experience God&apos;s Love</h3>
+            <h3 className="text-2xl font-bold mb-4">
+              Medical & Rehabilitation Support
+            </h3>
 
             <p className="text-gray-800 text-lg leading-relaxed">
-              Children explore, sing, pray, and grow through a curriculum created with high standards and rooted in God&apos;s love. Teachers reinforce daily lessons with engaging activities that help students grow academically and spiritually.
+              From physiotherapy to counseling, we provide holistic care alongside local
+              doctors and volunteers—healing both body and soul.
             </p>
           </div>
 
-          {/* IMAGE */}
           <div className="w-full md:w-1/2">
             <img
               src="/images/slider2.jpeg"
-              alt="Faith and Education"
+              alt="Special Education"
+              className="rounded-2xl shadow-xl w-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* ============================ */}
+      {/* SECTION 3 – IMAGE LEFT */}
+      {/* ============================ */}
+      <div className="px-6 lg:px-24 mb-20">
+        <div className="flex flex-col md:flex-row items-center gap-12">
+          <div className="w-full md:w-1/2">
+            <img
+              src="/images/slider1.jpeg"
+              alt="Character Building"
               className="rounded-2xl shadow-xl w-full object-cover"
             />
           </div>
 
+          <div className="w-full md:w-1/2">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
+              Faith & Character Building
+            </h2>
+
+            <p className="text-gray-800 text-lg leading-relaxed mb-4">
+              Daily prayer, worship, and Bible lessons cultivate integrity, kindness,
+              and Christ-like character in every child.
+            </p>
+
+            <p className="text-gray-800 text-lg leading-relaxed italic font-semibold">
+              “Whatever you did for one of the least of these... you did for Me.”
+              — Matthew 25:40
+            </p>
+          </div>
         </div>
+      </div>
+
+      {/* ============================ */}
+      {/* NEW BLUE SECTIONS (CENTERED & FIXED) */}
+      {/* ============================ */}
+      <div className="px-6 lg:px-24 mb-20 space-y-10">
+
+        {/* BOX 1 */}
+        <div className="bg-blue-600 w-full rounded-2xl shadow-xl p-10 text-center">
+          <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">
+            Get Involved
+          </h2>
+          <p className="text-white/90 text-lg sm:text-xl leading-relaxed text-left">
+            Join hands with us to bring hope, education, and faith to children in need.
+            Donations, volunteering, or prayer — every act changes lives.
+            <br /><br />
+            <span className="italic">
+              “Do not forget to do good and to share... God is pleased.” — Hebrews 13:16
+            </span>
+          </p>
+        </div>
+
+        {/* BOX 2 */}
+        <div className="bg-blue-600 w-full rounded-2xl shadow-xl p-10 text-center">
+          <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">
+            Testimonials
+          </h2>
+          <p className="text-white/90 text-lg sm:text-xl leading-relaxed text-left">
+            “My child now learns with joy and confidence.” — Parent  
+            <br /><br />
+            “This school is truly a light in our community.” — Local Pastor
+          </p>
+        </div>
+
+        {/* BOX 3 */}
+        <div className="bg-blue-600 w-full rounded-2xl shadow-xl p-10 text-center">
+          <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">
+            Faith and Scripture
+          </h2>
+          <p className="text-white/90 text-lg sm:text-xl leading-relaxed text-left">
+            Every lesson, act of kindness, and outreach is guided by Scripture and prayer.
+            <br /><br />
+            <span className="italic">
+              “The fear of the Lord is the beginning of wisdom.” — Proverbs 9:10
+            </span>
+          </p>
+        </div>
+
       </div>
 
       {/* ============================ */}
@@ -101,32 +179,26 @@ const Page = () => {
       <div className="px-6 lg:px-24 mb-20">
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
 
-          {/* IMAGE */}
-          <div className="flex justify-center">
-            <img
-              src="/images/manager1.jpeg"
-              alt="Founder"
-              className="w-56 h-56 md:w-72 md:h-72 object-cover rounded-full shadow-xl"
-            />
-          </div>
+          <img
+            src="/images/manager1.jpeg"
+            alt="Founder"
+            className="w-56 h-56 md:w-72 md:h-72 object-cover rounded-full shadow-xl"
+          />
 
-          {/* TEXT */}
           <div className="w-full md:w-[480px] text-center md:text-left">
-            <h1 className="font-extrabold text-2xl md:text-3xl mb-4">
-              From Our Founder
-            </h1>
+            <h1 className="font-extrabold text-2xl md:text-3xl mb-4">From Our Founder</h1>
 
             <p className="text-gray-800 mb-3">
-              We believe God will continue to help us expand this mission to the needy communities of Pakistan.
+              God continues to guide our mission across Pakistan.
             </p>
             <p className="text-gray-800 mb-3">
-              Although we faced many challenges with rented buildings, God made a way. In 2016, we purchased land and built our own school.
+              After years in rented buildings, God helped us purchase land and build a school in 2016.
             </p>
             <p className="text-gray-800 mb-3">
-              Despite limited facilities and tough weather conditions, our students continue learning with passion. We thank God for their courage!
+              Despite challenges, our students learn with passion and faith.
             </p>
             <p className="text-gray-800 mb-4">
-              We pray for partners who can help improve our school and bless these children.
+              We pray for partners who can help strengthen our facilities and bless more children.
             </p>
 
             <h2 className="text-xl md:text-2xl font-semibold">Pastor Victor Samuel</h2>

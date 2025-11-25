@@ -29,7 +29,6 @@ const Idcontact = () => {
           </a>
         </button>
       </div>
-
     </div>
   )
 }

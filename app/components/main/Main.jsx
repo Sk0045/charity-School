@@ -22,6 +22,37 @@ const cards = [
 const Main = () => {
   return (
     <div className="px-4 md:px-10 flex flex-col items-center gap-16 mb-10">
+      {/* ⭐⭐⭐ GALLERY SECTION (ADDED HERE) ⭐⭐⭐ */}
+      <div className="w-full max-w-6xl mt-5">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-gray-800 text-center">
+          Gallery – Sons of Daved's Charity School
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          {/* Video 1 */}
+          <div className="col-span-1 md:col-span-3 bg-white rounded-xl p-4 shadow-lg">
+            <video controls className="w-full h-72 rounded-lg object-cover shadow-md">
+              <source src="/videos/video1.mp4" type="video/mp4" />
+            </video>
+            <h3 className="text-xl font-semibold mt-3">Charity School Activity – Video 1</h3>
+            <p className="text-gray-600 text-sm">
+              Students enjoying classroom learning with creativity and excitement.
+            </p>
+          </div>
+
+          {/* Video 2 */}
+          <div className="col-span-1 md:col-span-3 bg-white rounded-xl p-4 shadow-lg">
+            <video controls className="w-full h-72 rounded-lg object-cover shadow-md">
+              <source src="/videos/video2.mp4" type="video/mp4" />
+            </video>
+            <h3 className="text-xl font-semibold mt-3">Charity School Activity – Video 2</h3>
+            <p className="text-gray-600 text-sm">
+              Kids participating in outdoor teamwork and fun activities.
+            </p>
+          </div>
+          </div>
+      </div>
 
       {/* Scene Section */}
       <div className="w-full max-w-6xl bg-gray-100 rounded-xl shadow-lg overflow-hidden">
@@ -37,6 +68,8 @@ const Main = () => {
           />
         </div>
       </div>
+
+
 
       {/* Latest News Section */}
       <div className="w-full max-w-6xl">
@@ -63,7 +96,12 @@ const Main = () => {
           ))}
         </div>
       </div>
-          <Link href="/news"><button className="bg-blue-600 w-[240px] h-10 text-center mb-2 -mt-2 text-white font-medium text-2xl rounded-2xl underline hover:bg-blue-700 cursor-pointer">view more article</button></Link>
+
+      <Link href="/news">
+        <button className="bg-blue-600 w-[240px] h-10 text-center mb-2 -mt-2 text-white font-medium text-2xl rounded-2xl underline hover:bg-blue-700 cursor-pointer">
+          view more article
+        </button>
+      </Link>
     </div>
   );
 };

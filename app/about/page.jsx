@@ -38,21 +38,21 @@ const Page = () => {
           <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">
             Our Mission
           </h2>
-          <p className="text-white/90 text-lg sm:text-xl leading-relaxed">
-            Education for Life and Eternity.
+          <p className="text-white/90 text-lg text-left sm:text-xl leading-relaxed">
+            To provide free education to underprivileged children and medical healthcare to intellectually challenged children in Pakistan — empowering them to grow academically, socially, ethically, and spiritually through love, compassion, and inclusion for a healthy life.
           </p>
         </div>
 
         {/* STRATEGY */}
         <div className="bg-white w-full lg:w-1/2 rounded-2xl shadow-xl p-10">
           <h2 className="text-black text-3xl sm:text-4xl font-extrabold mb-5">
-            Our Strategy
+            Our Vision
           </h2>
           <p className="text-gray-700 text-lg sm:text-xl leading-relaxed">
-            Grace Charity High School strives to help students strengthen
-            their relationship with God, build a foundation of strong moral
-            character, and achieve academic excellence. These core values
-            appear in every aspect of our school environment.
+           At Sons of David School®, we envision a world where every child—regardless of poverty or disability—receives love, care, and the opportunity to grow in wisdom and faith. Through our free education and rehabilitation programs, we nurture young hearts and minds, offering learning, nutrition, and medical support to children who deserve dignity and hope. Our special education services empower children with physical and intellectual challenges to discover their God-given abilities. With daily prayer, Bible study, and moral guidance, we strengthen character and faith, helping children walk in truth and compassion. Guided by the Word—“Let the little children come to Me, and do not hinder them, for the kingdom of heaven belongs to such as these” (Matthew 19:14)—we continue our mission to uplift every child as a precious creation of God.
+
+           “Whatever you did for one of the least of these brothers and sisters of mine, you did for Me.” — Matthew 25:40
+
           </p>
         </div>
       </div>
@@ -67,21 +67,15 @@ const Page = () => {
           {/* TEXT */}
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
-              Strengthen Faith
+              Our Story
             </h2>
 
             <p className="text-gray-800 text-lg leading-relaxed mb-4">
-              Son of David&apos;s School holds firmly to the foundation laid by
-              Pastor Victor Samuel in September 2010. Our founders established a
-              place in Madina Colony, Toba Tek Singh, where children can grow
-              spiritually and academically through purposeful education.
+              Sons of David School® was founded in 2020 from a vision of compassion and faith. While serving in underprivileged areas, we witnessed the hardships faced by children with disabilities and the struggles of their families. Remembering the Lord’s command, “Love your neighbor as yourself” (Mark 12:31), God placed a burden on our hearts for these precious children.
             </p>
 
             <p className="text-gray-800 text-lg leading-relaxed">
-              Students attend daily Religion Periods to focus their hearts and
-              minds on God. These moments encourage them to build faith,
-              develop moral character, and support each other with spiritual
-              unity and encouragement.
+              Motivated by this calling, we established Sons of David School® to provide free education and medical care to intellectually challenged children in Pakistan. Our mission is to empower these children to grow academically, socially, ethically, and spiritually through love, compassion, and inclusion. Guided by faith and the teachings of Christ, we strive to create a nurturing environment where every child can thrive and experience the transformative power of God’s love.
             </p>
           </div>
 
@@ -114,11 +108,11 @@ const Page = () => {
             </h2>
 
             <p className="text-gray-800 text-xl font-medium leading-relaxed mb-4">
-              Faith defines character and as we strengthen each student’s faith and relationship with God, we help further build character.
+              At Son of David's School, we believe that education is not just about academics; it's about building character and preparing students for life beyond the classroom.
             </p>
 
             <p className="text-gray-800 text-lg leading-relaxed">
-              Through athletics, service groups, and class group projects, students gain real-life experience in leadership, communication, problem solving, and volunteering their time for others. Our teachers are committed not only to teaching GCHS students using a robust curriculum, but also in providing each student with an opportunity to learn how to become a contributing member of society. Teachers and administrators encourage students to excel in the classroom and in life.
+              In 2023, our mission expanded to include care for intellectually challenged children. We encountered many living with Down syndrome, Microcephaly, and other physical or intellectual challenges — as well as those from low-income Christian families — who were denied education, medical care, and dignity. 
             </p>
           </div>
 
@@ -135,11 +129,13 @@ const Page = () => {
             </h2>
 
             <p className="text-gray-800 text-xl font-medium leading-relaxed mb-4">
-              Son of David's School provides the opportunity for students to develop their strengths and discover their potential in a safe and supportive setting.
+              Son of David's School® is more than just an educational institution; it is a community where faith and learning go hand in hand.
             </p>
 
             <p className="text-gray-800 text-lg leading-relaxed">
-              At SoDS there is a sense of belonging where each child is valued as an individual. SoDS is committed to developing all areas of an individual’s scholastic experience. While formal academic education may be found in many places, the Son of Divid's School difference is that teaching is Christ-centered in every class and activity.
+             Through prayer and dedication, we established a place of learning, healing, and hope. What began as a small act of faith has grown to serve over 400 children, providing free education, nutritious meals, doorstep medical aid, and physiotherapy healthcare to challenged children.
+
+Guided by God’s grace, we continue to expand this mission — transforming lives, one child at a time.
             </p>
           </div>
 

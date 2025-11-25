@@ -1,11 +1,12 @@
+"use client";
 import React from "react";
 import { MapPin, Phone, Clock } from "lucide-react";
 
 const Page = () => {
   return (
-    <div className="w-full px-4 py-12">
+    <div className="w-full px-4 py-12 space-y-16">
 
-      {/* ---------- CONTACT SECTION ---------- */}
+      {/* ---------- CONTACT INFO & MAP ---------- */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
 
         {/* Left Column: Contact Info */}
@@ -19,8 +20,9 @@ const Page = () => {
               <h2 className="text-xl font-semibold">Address</h2>
             </div>
             <p className="text-gray-700">
-              Madina Colony, Shorkot Road,<br />
-              Toba Tek Singh, 36050
+              Sons of David School® <br />
+              08/09 Father Colony, Street #01, KhurramPura, Khanewal, Pakistan <br />
+              Postal Code: 58150
             </p>
           </div>
 
@@ -28,9 +30,12 @@ const Page = () => {
           <div>
             <div className="flex items-center gap-2 mb-1">
               <Phone className="text-blue-600" />
-              <h2 className="text-xl font-semibold">Phone</h2>
+              <h2 className="text-xl font-semibold">Phone & Email</h2>
             </div>
-            <p className="text-gray-700">+92-(328)-761-7134</p>
+            <p className="text-gray-700">
+              Phone: +92-324-4080053 <br />
+              Email: adnanadams1616@gmail.com
+            </p>
           </div>
 
           {/* Hours */}
@@ -40,7 +45,7 @@ const Page = () => {
               <h2 className="text-xl font-semibold">Hours</h2>
             </div>
             <p className="text-gray-700">
-              Weekdays: 7:00 – 19:00 <br />
+              Weekdays: 07:00 – 19:00 <br />
               Saturday: 09:00 – 15:00 <br />
               Sunday: Closed
             </p>
@@ -59,11 +64,10 @@ const Page = () => {
             allowFullScreen
           ></iframe>
         </div>
-
       </div>
 
       {/* ---------- CONTACT FORM ---------- */}
-      <div className="max-w-4xl mx-auto mt-16">
+      <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-3 text-center">We want to hear from you</h1>
         <p className="text-gray-700 mb-8 text-center max-w-2xl mx-auto">
           Please use the contact form below to leave your message. One of our staff members will reply within 48 hours.
@@ -71,6 +75,7 @@ const Page = () => {
 
         <form className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
+          {/* Name */}
           <div className="flex flex-col">
             <label className="font-medium">First Name</label>
             <input
@@ -89,6 +94,7 @@ const Page = () => {
             />
           </div>
 
+          {/* Email */}
           <div className="flex flex-col sm:col-span-2">
             <label className="font-medium">Email</label>
             <input
@@ -98,6 +104,7 @@ const Page = () => {
             />
           </div>
 
+          {/* Phone */}
           <div className="flex flex-col sm:col-span-2">
             <label className="font-medium">Phone</label>
             <input
@@ -107,15 +114,17 @@ const Page = () => {
             />
           </div>
 
+          {/* Message */}
           <div className="flex flex-col sm:col-span-2">
             <label className="font-medium">Message</label>
             <textarea
               placeholder="Enter your message"
-              rows="5"
+              rows={5}
               className="border p-2 rounded"
             ></textarea>
           </div>
 
+          {/* Submit Button */}
           <div className="sm:col-span-2 flex justify-center mt-4">
             <button
               type="submit"
@@ -124,7 +133,6 @@ const Page = () => {
               Submit
             </button>
           </div>
-
 
         </form>
       </div>
