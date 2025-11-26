@@ -88,7 +88,7 @@ const Footer = () => {
 
         <div className="relative bg-gradient-to-r from-red-800/70 via-orange-700/60 to-yellow-600/60 h-full text-white py-12 px-6 space-y-6 backdrop-blur-sm">
           <h1 className="text-3xl md:text-4xl font-extrabold text-yellow-300 drop-shadow-[0_4px_15px_rgba(255,150,0,0.9)]">
-            Sons of David School helps educate and guide children in Toba Tek Singh, Pakistan
+            Sons of David School helps educate and guide children in Khurram Pura Khanewal Punjab, Pakistan
           </h1>
 
           <p className="text-lg md:text-xl leading-relaxed max-w-4xl text-white/90 drop-shadow-md">
